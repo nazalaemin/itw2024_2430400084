@@ -1,0 +1,140 @@
+body{
+    font: 16px / 28px arial,sans-serif;
+    background-color: #eaeaea;
+    color: #333333;
+	background-image: url(img/bagraund.jpg);
+
+}
+
+.container{
+    background-color: #f8edde;
+   
+}
+
+.header{
+	padding: 20px;
+	padding-bottom: 5px;
+    text-align: center;
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 0.5px 0.5px;
+}
+
+.header .judul{
+	font-size:40px;
+	font-weight: bold;
+    color:palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px ;
+	margin-right: 10px;
+  
+}
+
+.ul{
+    margin-left: 150px;
+}
+
+.header a{
+
+	text-decoration: none;
+	color:#F4C2C2;
+	padding: 1px;
+
+
+}
+
+.header a:hover{
+
+	background-color:#F4C2C2;
+	color: white;
+
+}
+.hero{
+	height: 200px;
+    width: 400px;
+    margin: 30px 30px 30px 30px;
+    margin-left: 250px;
+    border-radius: 50px;
+
+}
+.hero img{
+   
+    height: 200px;
+    width: 400px;
+    border-radius: 50px;
+    
+}
+.content{
+	padding: 20px; 
+}
+.content h2{
+	
+    color: palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+.content .penulis a{
+	color: salmon;
+	text-decoration: none;
+}
+
+.content p{
+	margin-bottom: 20px;
+	font-size: 14px ;
+}
+
+.menu .judul{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:palevioletred ;
+}
+
+.menu-item1{
+    text-align: left;
+    padding: 20px;
+    padding-top: 20px;
+    background-color: white;
+    height: 270px;
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 1px 1px;
+    margin: 30px 30px 30px;
+}
+
+.menu-item1 h2{
+    margin-left: 40px;
+    color:palevioletred;
+}
+
+.menu-item1 input{
+   margin: 20px;
+   margin-left: 100px;
+}
+
+.menu-item1 img{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.kosong{
+    height: 100px;
+}
+
+.adalah{
+    display: flex;
+}
+
