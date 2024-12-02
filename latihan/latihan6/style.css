@@ -36,6 +36,12 @@ body {
     color: palevioletred;
 }
 
+nav .logo{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
 .nav-links a:hover {
     color: palevioletred; /* Warna saat hover */
 }
