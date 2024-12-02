@@ -33,6 +33,7 @@ body {
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
+    color: palevioletred;
 }
 
 .nav-links a:hover {
@@ -111,25 +112,31 @@ body {
     }
 
     .navbar ul{
-        background-color: plum;
+        background-color: #f7dcee;
         width: 100%;
         left: 0;
         text-align: center;
         position: absolute;
         top: 50px;
+       
     }
 
     .navbar li:hover{
         transform: scale(1.05);
-        background-color: black;
-        box-shadow: 0 0 0 6px white;
+        background-color: #f7dcee;
+        box-shadow:  0 0 0 6px #d15da8;
         transition: 1s;
-        color: #d15da8;
+        
+        
     }
 
     .navbar ul li{
         padding-top: 50px;
         padding-bottom: 50px ;
+        box-shadow: 0 0 0 6px #d15da8;
+        left: -15px;
+        width: 100%;
+        color: black;
     }
 
     .navbar ul a{
