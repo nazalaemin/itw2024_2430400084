@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+body{
+    font: 16px / 28px arial,sans-serif;
+    background-color: #eaeaea;
+    color: #333333;
+	background-image: url(img/bagraund.jpg);
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+    background-color: #f8edde;
+}
+
+.header{
+	padding: 20px;
+	padding-bottom: 5px;
+    text-align: center;
+}
+
+.header .judul{
+	font-size:40px;
+	font-weight: bold;
+    color:palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px ;
+	margin-right: 10px;
+}
+
+.header a{
+
+	text-decoration: none;
+	color:#F4C2C2;
+	padding: 3px;
+
+}
+
+.header a:hover{
+
+	background-color:#F4C2C2;
+	color: white;
+
+}
+.hero{
+	height: 400px;
+	background-image:url(img/gambar\ judul.avif) ;
+   background-size: 200px;
+	border-bottom: 5px solid palevioletred;
+	border-top: 5px solid #F4C2C2;
+    background-position: 0px -120px;
+    margin: 30px 30px 30px 30px;
+}
+.content{
+	padding: 20px; 
+}
+.content h2{
+	
+    color: palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+.content .penulis a{
+	color: salmon;
+	text-decoration: none;
+}
+
+.content p{
+	margin-bottom: 20px;
+	font-size: 14px ;
+}
+
+.menu .judul{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:palevioletred ;
+}
+
+.menu-item1{
+    text-align: left;
+    font-size: medium;
+    padding: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:palevioletred;
+}
+.menu-item1 img{
+    margin-top: 25px;
+    border-radius:100px;
+    width:100px;
+    height:100px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px 0px 0px 25px;
+}
+
+.menu-item2{
+    text-align: left;
+    font-size: medium;
+    padding: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:palevioletred;
+}
+.menu-item2 img{
+    margin-top: 25px;
+    border-radius:100px;
+    width:100px;
+    height:100px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px 0px 0px 0px;
+}
+
+.menu-item3{
+    text-align: left;
+    font-size: medium;
+    padding: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:palevioletred;
+}
+.menu-item3 img{
+    margin-top: 25px;
+    border-radius:100px;
+    width:100px;
+    height:100px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px 0px 0px 1px;
+}
+
+
+
+.adalah{
+    display: flex;
+}
