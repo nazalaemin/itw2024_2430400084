@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PINKIE SHOP</title>
+    <link
+    href="https://fonts.goggleapis.com/css2?family=Oswald:wght@200;400&display=swap"
+    rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    
+    <header class="header">
+        <div class="hero">
+          <h2 class="heading">PINKIE SHOP</h2>
+          <p class="sub heading">SHOES AJ </p>
+        </div>
+        <div class="feature1">
+            <h4 class="price">IDR 1000K</h4>
+            <p class="item">air jordan pink</p>
+        </div>
+        <div class="feature2">
+            <h4 class="price">IDR 1000K</h4>
+            <P class="item">air jordan grey</P>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="brand">
+            <h1>air jordan shoes</h1>
+        </div>
+        <ul class="menu-list">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <section class="services">
+        <div class="service">
+            <div class="icon">
+                <h3>Peringatan!</h3>
+                <p>Mau sepatu yang bikin langkah kamu nyaman sepanjang hari? Pilihan yang tepat adalah ComfortFit! Dengan teknologi sol empuk dan desain ergonomis, kamu bisa melangkah dengan penuh kenyamanan!!</p>
+            </div>
+        </div>
+    
+        <div class="service">
+            <div class="icon">
+                <h3>Update</h3>
+                <p>Lelah dengan rutinitas? Nikmati kenyamanan dan penampilan stylish bersama sepatu dari pinkie shop!</p>
+            </div>
+        </div>
+    
+        <div class="service">
+            <div class="icon">
+                <h3>Coming Soon</h3>
+                <p>Langkahmu terasa ringan dengan sepatu ini. Siapkan dirimu untuk menjelajahi dunia baru! #LangkahMudah!</p>
+            </div>
+        </div>
+    
+        <div class="service">
+            <div class="icon">
+                <h3>Bantuan</h3>
+                <p>Dengan sepatu ini, kenyamanan bukan lagi sekadar impian. Tidak ada batasan untuk langkahmu! #NyamanTakTerbatas!</p>
+            </div>
+        </div>
+        
+    </section>
+
+</div>
+<script>
+const menuToggle=document.querySelector('.menu-toggle input');
+const nav=document.querySelector('nav ul');
+
+menuToggle.addEventListener('click',function(){
+nav.classList.toggle('slide');
+});
+</script>
+</body>
+</html>
